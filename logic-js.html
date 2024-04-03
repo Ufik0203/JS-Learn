@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT | DASAR-Logic</title>
+</head>
+<body>
+    <h1>Test Logic JavaScript</h1>
+    <script>
+        // If
+        let user = 'admin'
+        if (user == "admin") {
+            console.log('Selamat Datang ' + user);
+        }
+
+        // If else
+        let harga = 5000
+        if (harga < 5000) {
+            console.log('Murah');
+        } else {
+            console.log('Mahal');
+        }
+
+        // switch
+        let hari = 2
+        switch (hari) {
+            case 1:
+                console.log('Hari Senin');
+                break;
+            case 2:
+                console.log('Hari Selasa');
+                break;
+            default:
+                console.log('Hari belum di tambahkan');
+                break;
+        }
+
+        // For
+        for (let i = 1; i <= 10; i++) {
+            console.log('Perulangan ke-' + i);
+            
+        }
+
+        // showing array
+        let fruits = ['mangga', 'jeruk', 'durian', 'anggur']
+        for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i]);
+            
+        }
+        fruits.forEach(fruits => {
+            console.log(fruits);
+        })
+    </script>
+</body>
+</html>

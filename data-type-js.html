@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT | DASAR-Data Type</title>
+</head>
+<body>
+    <h1>Test Data Type JavaScript</h1>
+    <script>
+        // number
+        let num = 80
+        let decimal = 0.5
+        let mines = -2
+        console.log(num)
+        console.log(decimal)
+        console.log(mines)
+
+        // string
+        let hewan = 'kucing'
+        let suara = `meow ${hewan}` // Menggunakan backtip(sebelanya angka 1), bukan kutip 1 atau kutip 2
+        let suara2 = 'guk guk guk'
+        console.log(suara)
+        let hewan1 = 'Anjing ' + suara2
+        console.log(hewan1)
+
+        // boolean
+        let perempuan = true
+        let laki2 = false
+        console.log(perempuan)
+        console.log(laki2)
+
+        // null
+        let nul = null
+        console.log(nul)
+
+        // array
+        let fruits = ['Mangga', 'Durian', 'Manggis', 'Anggur']
+        console.log(fruits)
+        console.log('saya suka ' + fruits[2])
+        fruits[0] = 'Kelengkeng'
+        console.log(fruits[0])
+
+        // destructing array
+        let lemari = [
+            ['berlian', 'emas', 'ruby'],
+            ['kaos', 'kemeja', 'sweather']
+        ]
+
+        let [perhiasan, pakaian] = lemari
+        console.log(perhiasan)
+        console.log(pakaian)
+
+        // typeof
+        console.log(typeof laki2);
+        console.log(typeof nul);
+        console.log(typeof suara2);
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT | DASAR-Operator</title>
+</head>
+<body>
+    <h1>Test Operator JavaScript</h1>
+    <script>
+        // Aritmatika
+        let num;
+        num = 100
+        console.log(num);
+
+        num = +100
+        console.log(num);
+
+        num = 1+2
+        console.log(num);
+
+        num = 2-1
+        console.log(num);
+
+        num = 2*2
+        console.log(num);
+
+        num = 4/2
+        console.log(num);
+
+        num = 8**2
+        console.log(num);
+
+        num = 6+8/2+6
+        console.log(num);
+
+        num = 5%2
+        console.log(num);
+
+        // Increment dan decrement
+        let val;
+        val = 10
+        val++ // increment
+        console.log(val);
+        val = 10
+        val-- // decrement
+        console.log(val);
+
+        // Spread operator
+        let mahasiswaInformatika = ['ira', 'ani', 'ellen', 'nia']
+        let mahasiswaRpl = ['auni', 'nina' , 'neli', 'ica']
+        let merge = [...mahasiswaInformatika, ...mahasiswaRpl]
+        console.log(merge);
+
+        let orang = {
+            nama: 'key',
+            umur: '17',
+            status: 'pelajar',
+            teman: [...merge]
+        }
+        console.log(orang);
+    </script>
+</body>
+</html>

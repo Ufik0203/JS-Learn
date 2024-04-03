@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background: #00ECB9;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    width: 400px;
+    padding: 3% 0 0;
+    margin: auto;
+}
+
+div .div-border {
+    margin: auto;
+    border: 2px solid black;
+    width: 240px;
+    border-style: solid;
+    background-color: burlywood;
+    border-radius: 4px;
+}
+
+input#display {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+form {
+    padding: 10px;
+    background: #547ac2;
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 42px;
+    height: 42px;
+    margin: 1px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.del {
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 18px;
+    margin: 1px;
+    text-align: center;
+    font-size: 18px;
+}

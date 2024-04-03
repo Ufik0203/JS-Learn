@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT | DASAR-Function</title>
+</head>
+
+<body>
+    <h1>Test Function JavaScript</h1>
+    <script>
+        // void function
+        function pagi1() {
+            console.log("Selamat Pagi");
+            console.log("Good Morning");
+            console.log("Ohayou Gozaimasu");
+            console.log("Buenos Dias");
+        }
+        pagi1()
+        // return function
+        function pagi2() {
+            return "Semangat Pagi";
+        }
+        let salam = pagi2()
+        console.log(salam)
+
+        // param dan argument
+        function pagi3(siapa) {
+            return "Semangat Pagi " + siapa;
+        }
+        let salam2 = pagi3("Nyn Jokim")
+        console.log(salam2)
+
+        // default params
+        function pagi4(siapa = "Nyn Jokim") {
+            return "Semangat Pagi " + siapa;
+        }
+        let salam3 = pagi4("Hue Nong Linu")
+        console.log(salam3)
+
+
+        // const function
+        const pagi5 = function (params) {
+            console.log("Const function")
+        }
+        pagi5();
+
+        // arrow function
+        const pagi7 = () => {
+            console.log("arrow function 2")
+        }
+        const pagi8 = (siapa) => (
+            console.log(`Selamat datang ${siapa}`)
+        )
+        pagi8("Ijaz")
+        const pagi6 = () => "arrow function"
+        console.log(pagi6())
+
+    </script>
+</body>
+
+</html>
